@@ -11,8 +11,8 @@
 <body>
   <header class="page-header">
     <div class="container">
-      enot_neopoznanniy@htmlacademy.ru
-      +7 987 654 32 10
+     <a class="header-email" href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a> 
+      <a class="header-phone" href="tel:+79876543210">+7 987 654 32 10</a>
     </div>
   </header>
 
@@ -26,6 +26,9 @@
   <section class="intro">
     <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure class="user-image">
+        <img src="img/files/user.jpg" width="928" height="536" alt="Фотография опознанного енота">
+      </figure>
       <h3>Пара слов о себе</h3>
       <p>Текст с парой слов о себе.</p>
       <h3>Чем могу быть полезен</h3>
@@ -36,8 +39,11 @@
   <section class="portfolio">
     <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+      <figure class="project-image">
+        <img src="img/files/project.jpg" width="928" height="536" alt="Сайт магазина товаров для дома">
+      </figure>
       <h3>Магазин товаров для дома</h3>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
       <p>Мой первый сайт.</p>
 
       <h3>Блог начинающего верстальщика</h3>
@@ -47,7 +53,8 @@
 
   <footer class="page-footer">
     <div class="container">
-      Контакты в подвале
+      <a class="footer-email"href="mailto:enot_neopoznanniy@gmail.com">enot_neopoznanniy@gmail.com</a>
+      <a class="footer-phone" href="tel:+79876543210">+7 987 654 32 10</a>
     </div>
   </footer>
 </body>
